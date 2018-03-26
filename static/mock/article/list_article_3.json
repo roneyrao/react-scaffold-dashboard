@@ -1,0 +1,70 @@
+{
+	"success": 0,
+	"message": "",
+	"data": {
+		"count": 37,
+		"index": 20,
+		"pageSize": 10,
+		"news": [{
+				"id": 21,
+				"title": "North Korea releases Canadian pastor",
+				"posted": "09 Aug 2017 15:35:35 GMT",
+				"abstract": "A Canadian pastor imprisoned in North Korea has been freed after two and a half years in detention."
+			},
+			{
+				"id": 22,
+				"title": "China urges calm over North Korea",
+				"posted": "09 Aug 2017 11:25:53 GMT",
+				"abstract": "US President Donald Trump's threats of \" fire and fury \" against North Korea couldn't come at a worse time for China."
+			},
+			{
+				"id": 23,
+				"title": "Opinion: What Trump should know about N. Korea",
+				"posted": "09 Aug 2017 22:34:24 GMT",
+				"abstract": "If President Trump wants to successfully address the North Korean threat, he should focus on a strategy of containment rather than \" fire and fury \" rhetoric, writes Jamie Metzl."
+			},
+			{
+				"id": 24,
+				"title": "N. Korea media: Canadian envoy arrives in Pyongyang",
+				"posted": "09 Aug 2017 03:40:24 GMT",
+				"abstract": "A Canadian government envoy, Daniel Jean, national security adviser to Canadian Prime Minister Justin Trudeau, and his party arrived in Pyongyang, the state-run Korean Central News Agency reported. It gave no further details about why the Canadian official was there."
+			},
+			{
+				"id": 25,
+				"title": "Powerful earthquake kills at least 4",
+				"posted": "09 Aug 2017 09:43:58 GMT",
+				"abstract": "At least four people were killed and 30 more injured late Tuesday when a powerful earthquake struck a popular tourist area of Jiuzhaigou County in southwest China's Sichuan Province, according to the state-owned media outlet Xinhua."
+			},
+			{
+				"id": 26,
+				"title": "Australia struggles with extremist threat",
+				"posted": "09 Aug 2017 05:54:55 GMT",
+				"abstract": "For most young Australians, the violence and extremism of Syria feels a world away. But for a tiny minority, ISIS exerts a powerful allure, leading a small but significant number to head to the Middle East to take up arms."
+			},
+			{
+				"id": 27,
+				"title": "Australians to get vote on legalizing same-sex marriage, PM says",
+				"posted": "09 Aug 2017 02:38:13 GMT",
+				"abstract": "Australia could legalize same-sex marriage by as early as the end of this year, after the government announced an attempt to hold a national vote on the issue."
+			},
+			{
+				"id": 28,
+				"title": "Singapore's future in the age of Trump",
+				"posted": "09 Aug 2017 00:21:02 GMT",
+				"abstract": ""
+			},
+			{
+				"id": 29,
+				"title": "Life as an apprentice geisha",
+				"posted": "09 Aug 2017 23:05:33 GMT",
+				"abstract": ""
+			},
+			{
+				"id": 30,
+				"title": "How New York ignited a global High Line craze",
+				"posted": "10 Aug 2017 06:10:58 GMT",
+				"abstract": "The creators of the New York High Line are, in many ways, the Steve Jobs of the urban planning world."
+			}
+		]
+	}
+}

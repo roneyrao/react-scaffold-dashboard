@@ -1,0 +1,70 @@
+{
+	"success": 0,
+	"message": "",
+	"data": {
+		"count": 37,
+		"index": 10,
+		"pageSize": 10,
+		"news": [{
+				"id": 11,
+				"title": "Stop battling over breastfeeding in war zones",
+				"posted": "12 Aug 2017 13:50:24 GMT",
+				"abstract": "As they sought to help those escaping the hell of Mosul and its siege, the staff of Doctors Without Borders grappled with a huge challenge: many, many undernourished babies."
+			},
+			{
+				"id": 12,
+				"title": "Brutal talk is exactly what North Korea needs to hear",
+				"posted": "12 Aug 2017 14:25:54 GMT",
+				"abstract": "The North Korea crisis is deadly serious and President Donald Trump is pursuing a dangerous path, escalating tensions with his \" fire and fury \" and \" locked and loaded \" comments. His unpredictable behavior is being met with predictable criticism from the left."
+			},
+			{
+				"id": 13,
+				"title": "Let them eat margarine?",
+				"posted": "11 Aug 2017 20:38:59 GMT",
+				"abstract": "France is sliding into an existential butter crisis, and guess who's responsible? Well, at least in part, it's China and Iran. But equal blame could be parceled out to government over-regulation, even global warming."
+			},
+			{
+				"id": 14,
+				"title": "Merck CEO quits Trump council over Charlottesville",
+				"posted": "15 Aug 2017 02:17:31 GMT",
+				"abstract": "Merck CEO Kenneth Frazier quit President Trump's manufacturing council on Monday after Trump failed to condemn white supremacists."
+			},
+			{
+				"id": 15,
+				"title": "Chinese media: Trump's trade probe will 'poison' relations",
+				"posted": "14 Aug 2017 11:48:41 GMT",
+				"abstract": "American threats to get tough on trade with China won't help solve the crisis over North Korea."
+			},
+			{
+				"id": 16,
+				"title": "Japan's economy finds its 'sweet spot'",
+				"posted": "14 Aug 2017 11:10:47 GMT",
+				"abstract": "Japan's long suffering economy is firmly on the road to recovery."
+			},
+			{
+				"id": 17,
+				"title": "Growing tomatoes in the concrete jungle",
+				"posted": "10 Aug 2017 20:06:06 GMT",
+				"abstract": "Seven years ago, Tony Hillery was volunteering at a New York City public school in Harlem."
+			},
+			{
+				"id": 18,
+				"title": "City kids farm and eat the fruits of their labor",
+				"posted": "10 Aug 2017 16:22:13 GMT",
+				"abstract": "On an urban farm in New York City, 23-year-old Edgar turned his life around with the help of CNN Hero Tony Hillery and his nonprofit, Harlem Grown."
+			},
+			{
+				"id": 19,
+				"title": "North Korea threatens strike on Guam",
+				"posted": "09 Aug 2017 11:55:58 GMT",
+				"abstract": "North Korea's military is \" examining the operational plan \" to strike areas around the US territory of Guam with medium-to-long-range strategic ballistic missiles, state-run news agency KCNA said early Wednesday local time."
+			},
+			{
+				"id": 20,
+				"title": "Life in North Korea's crosshairs",
+				"posted": "12 Aug 2017 21:27:24 GMT",
+				"abstract": "With rough, calloused hands, Guam local Marco Martinez steadily trims his fishing line."
+			}
+		]
+	}
+}

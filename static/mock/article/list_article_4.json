@@ -1,0 +1,52 @@
+{
+	"success": 0,
+	"message": "",
+	"data": {
+		"count": 37,
+		"index": 30,
+		"pageSize": 10,
+		"news": [{
+				"id": 31,
+				"title": "One of history's greatest mass migrations",
+				"posted": "09 Aug 2017 16:54:40 GMT",
+				"abstract": "Millions of Indians flee their homes from India to a newly-formed Pakistan, or in the opposite direction."
+			},
+			{
+				"id": 32,
+				"title": "Suzuka 8 Hours: A 'magical' race like no other",
+				"posted": "27 Jul 2017 09:51:08 GMT",
+				"abstract": "It is the jewel in the crown of the FIM Endurance World Championship -- and the most important race on the calendar for Japanese motorcycle manufacturers."
+			},
+			{
+				"id": 33,
+				"title": "The bridge that changed China forever",
+				"posted": "02 Aug 2017 07:34:29 GMT",
+				"abstract": "China may be home to both the longest and highest bridges in the world, but neither is as pioneering as the Nanjing Yangtze River Bridge."
+			},
+			{
+				"id": 34,
+				"title": "The world's most popular locations on Instagram Stories",
+				"posted": "09 Aug 2017 09:45:54 GMT",
+				"abstract": ""
+			},
+			{
+				"id": 35,
+				"title": "Is Aung San Suu Kyi the Mandela of Asia?",
+				"posted": "24 Sep 2016 03:27:07 GMT",
+				"abstract": "After spending 15 years under house arrest, democracy icon Aung San Suu Kyi explains her life outlook and why she doesn't harbor bitterness."
+			},
+			{
+				"id": 36,
+				"title": "Why can't these Indians leave Saudi Arabia?",
+				"posted": "04 Aug 2016 15:21:21 GMT",
+				"abstract": "7,700 Indian workers are stranded in Saudi Arabia after a series of layoffs. CNN gets access to one of the 20 camps where workers are stuck."
+			},
+			{
+				"id": 37,
+				"title": "Heineken taps into Myanmar's beer market",
+				"posted": "07 Jun 2016 13:04:35 GMT",
+				"abstract": "We look into Myanmar's brewing beer market and find out why Heineken invested in a $60 million brewery outside of Yangon."
+			}
+		]
+	}
+}
