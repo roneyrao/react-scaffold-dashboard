@@ -1,0 +1,13 @@
+dist/
+dev/
+__coverage__
+res
+#		,"react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx"] }]
+#		,"react/prop-types":0
+#		,"react/jsx-closing-tag-location":0
+#		,"react/display-name":0
+#		,"react/no-multi-comp":0
+#		,"react/jsx-sort-props": 0
+#		,"react/jsx-indent":0
+#		,"react/jsx-indent-props":0
+#		,"react/forbid-component-props":0,

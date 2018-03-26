@@ -1,0 +1,7 @@
+@custom-media --sm-viewport (max-width:767px);
+@custom-media --lg-viewport (min-width:768px);
+
+
+:root {
+  --color-hl-redDark: #c0433e;
+}

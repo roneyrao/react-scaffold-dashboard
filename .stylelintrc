@@ -1,0 +1,13 @@
+
+{
+	"extends": ["stylelint-config-recommended-scss"],
+	"rules":{
+    "string-quotes":"single",
+    "indentation":2,
+    "color-hex-case":"lower",
+    "scss/at-rule-no-unknown": [true, {ignoreAtRules:['c', 'd', 'm', 'w']}],
+    "font-family-no-missing-generic-family-keyword": null,
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["global", "local"] }]
+	}
+}
+

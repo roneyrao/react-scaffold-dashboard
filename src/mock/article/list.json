@@ -1,0 +1,70 @@
+{
+	"success": 1,
+	"message": "",
+	"data": {
+		"count": 37,
+		"index": 0,
+		"pageSize": 10,
+		"news": [{
+				"id": 1,
+				"title": "若美反击朝鲜打击关岛中国是否中立？中方回应",
+				"posted": "14 Aug 2017 10:37:59 GMT",
+				"abstract": "2017年8月14日外交部发言人华春莹主持例行记者会，回答诸多问题，包括王毅外长出席东亚合作系列外长会、美方周一将宣布针对中国的“非法”贸易手段进行调查、汪洋即将对尼泊尔的访问等"
+			},
+			{
+				"id": 2,
+				"title": "18 killed, 100 injured in twin blasts in Pak's tribal area",
+				"posted": "14 Aug 2017 04:39:08 GMT",
+				"abstract": "The blasts took place in a crowded place; Many people were there in Akbar Khan market shopping for Iftar and Eid"
+			},
+			{
+				"id": 3,
+				"title": "Caught in the middle",
+				"posted": "14 Aug 2017 06:08:47 GMT",
+				"abstract": "Guam is a victim of perhaps its greatest asset: its location."
+			},
+			{
+				"id": 4,
+				"title": "Former spy chief: North Korea is not going to give up its nukes",
+				"posted": "14 Aug 2017 07:16:43 GMT",
+				"abstract": "Former Director of National Intelligence James Clapper, now a CNN contributor, said Sunday that he does not foresee a scenario where North Korea relinquishes its nuclear weapons."
+			},
+			{
+				"id": 5,
+				"title": "A look at Guam during World War II",
+				"posted": "13 Aug 2017 00:21:42 GMT",
+				"abstract": "After the Second Battle of Guam in 1944, the United States retook the island and turning it into an important strategic base."
+			},
+			{
+				"id": 6,
+				"title": "Leaving Venezuela, with just four suitcases",
+				"posted": "12 Aug 2017 15:05:47 GMT",
+				"abstract": "Carolina Wong never thought she would leave Venezuela. But when protests came to her door, it was time to find a way to get her family out."
+			},
+			{
+				"id": 7,
+				"title": "Terrorists attack Burkina Faso restaurant",
+				"posted": "14 Aug 2017 20:31:22 GMT",
+				"abstract": "Security forces in Burkina Faso have ended an operation against terrorists who attacked a Turkish cafe in the capital Ouagadougou Sunday that left 18 dead including two attackers, the communications minister Remis Dandjinou said Monday."
+			},
+			{
+				"id": 8,
+				"title": "Afghan women ask: Where is my name?",
+				"posted": "14 Aug 2017 10:45:46 GMT",
+				"abstract": "When a woman gets married in Afghanistan, her name isn't on the wedding invitations. When she gives birth, her name is left off the child's birth certificate. And when she dies, her headstone reads, \" Mr.X 's mother, daughter, wife or sister.\""
+			},
+			{
+				"id": 9,
+				"title": "Study: 133% leap in children admitted to ER for pot",
+				"posted": "14 Aug 2017 14:27:44 GMT",
+				"abstract": "As attitudes about marijuana shift around the world, researchers are warning parents that it's risky to keep it around children, especially those who are too young to know what it is."
+			},
+			{
+				"id": 10,
+				"title": "13 fun things to do in Curaçao right now",
+				"posted": "14 Aug 2017 20:11:06 GMT",
+				"abstract": "Conveniently sitting outside the hurricane belt, just 50 miles east of busy Aruba, laid-back Curaçao boasts vibrant architecture and history, multicultural neighborhoods, white sand beaches and iridescent turquoise Caribbean water."
+			}
+		]
+	}
+}

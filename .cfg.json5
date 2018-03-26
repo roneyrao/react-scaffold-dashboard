@@ -1,0 +1,72 @@
+/*
+  acceptable fields:
+
+	srcDir:'src',
+	entry:'index.js',
+	outDir:'built_dev',
+	publicPath:'root',
+	apiPath:'api', 
+
+  
+	alias:{// relative to srcDir.
+		"cssmain":"framework/css_global/main.css",
+	},
+	zip:true, //bundle build output in to a zip file
+
+	mock:true, //'mock'
+	mock:'mockDir',
+	mock:[], //rewrites
+	mock:{
+		folder:'mock',
+		rewrites:[
+			['article/(\\d+)/comment/(\\d+)', 'article_$1_comment_$2']
+		]
+	},
+
+	proxies:'http://...', // apiPath => 
+	proxies:{'api':'http://afsfa.com'},
+	proxies:[{'api':'http://afsfa.com'}, {'api2':'http://afsfa.com'}],
+
+	"server": ["flex-server", ["-s", "flex-server.middleware.js"]],
+*/
+
+
+{
+/*
+* default values:
+*/
+  srcDir:'src',
+  outDir:'dist',
+	alias:{
+		"Theme":'styles-framework-h5/base/theme.css',
+		"Comps":'common/components',
+		"Styles":'common/styles',
+		"Utils":'common/utils',
+	},
+
+/*
+* values for different environments to override default values;
+*/
+	targets:{
+		mock:{
+			publicPath:'/root/',
+			apiPath:'mock/', 
+      entry:'index.js',
+      outDir:'dev',
+      mock:[
+        ['article/list', 'article/list_article_1.json'],
+        ['article/(\\d+)', 'article/article_$1.json'],
+        ['comments/(\\d+)', 'article/list_cmt_$1_1.json'],
+        ['comments', 'article/list_cmt_long.json'],
+      ]
+		},
+		static:{
+			apiPath:'mock/', 
+      outDir:'static',
+      mock: true,
+		},
+		production:{
+			apiPath:'mock', 
+		}
+	}
+}

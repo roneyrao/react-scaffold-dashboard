@@ -1,0 +1,35 @@
+@import '~Styles/theme';
+.sidebarMenu,
+.sidebarMenu .panel-heading,
+.sidebarMenu .list-group-item {
+  background-color:transparent;
+  border: none;
+  padding:0;
+  border-radius:0;
+  margin:0;
+}
+.sidebarMenu * {
+  color:#ccc;
+}
+.sidebarMenu a {
+  display: block;
+  padding: 10px 15px;
+}
+.sidebarMenu .panel-body {
+  padding:0;
+  padding-left:1em;
+}
+.sidebarMenu.active,
+.sidebarMenu:hover,
+.sidebarMenu a.active,
+.sidebarMenu a:hover,
+.sidebarMenu a:focus {
+  color:white;
+  background-color: var(--color-hl-redDark);
+  text-decoration:none;
+}
+.sidebarMenu .list-group-item > a.active,
+.sidebarMenu .list-group-item a:hover,
+.sidebarMenu .list-group-item > a:focus {
+  text-decoration:underline;
+}
