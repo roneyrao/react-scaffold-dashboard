@@ -136,6 +136,4 @@ if (CFG.zip && !IsDevServer) {
   }));
 }
 
-console.log({ CFG: CFG_STRINGIFIED, 'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV) });
-
 module.exports = general;

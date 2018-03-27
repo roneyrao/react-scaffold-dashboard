@@ -7,7 +7,7 @@
     "test-ci": "BABEL_ENV=node jest --ci",
     "start": "cross-env DEBUG='express:express-router,webpackDevserverHelper' TARGET=mock webpack-dev-server",
     "dev": "cross-env NODE_ENV=development TARGET=mock webpack --verbose --json > wp.json",
-    "static": "cross-env NODE_ENV=production TARGET=static webpack",
+    "static": "cross-env NODE_ENV=development TARGET=static webpack",
     "t": "cross-env NODE_ENV=development TARGET=mock node debug node_modules/webpack/bin/webpack.js",
     "prod": "cross-env NODE_ENV=production webpack"
   },
