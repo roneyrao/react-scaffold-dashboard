@@ -93,93 +93,9 @@ Requester.prototype = {
       },
     );
   },
-  // requestPromise() {
-  //   const promiseExecutor = {};
-  //   const promise = new Promise((resolve, reject) => {
-  //     promiseExecutor.resolve = resolve;
-  //     promiseExecutor.reject = reject;
-  //   });
-  //   return { promise, request: this.request.bind(this, promiseExecutor) };
-  // },
-  /**
-   * called by consumer. from consumer's perspective of view, this method acts as two characters.
-   *  1) it acts as a `request/fetch`.
-   *  2) it acts as an action creator.
-   *  actually it returns a function that really do the `request`,
-   *  this function is consumed by `redux-thunk` as an `action`.
-   *
-   * @param {Object} [params] - request parameters.
-   *
-   * @returns {Function} - an action consumed by `redux-thunk`.
-   */
-  // doRequest(promiseExecutor, params) {
-  //   delete this.ajax.configs.body; // left by previous request;
-
-  //   if (typeof this.path === 'function') {
-  //     this.currentPath = this.path(params);
-  //   } else {
-  //     this.currentPath = this.path;
-  //   }
-
-  //   this.currentPath = CFG.__API_PATH__ + this.currentPath;
-
-  //   if (params) {
-  //     if (this.ajax.configs.method === 'GET' || this.ajax.configs.method === 'HEAD') {
-  //       const _qs = qs.stringify(params);
-  //       this.currentPath = `${this.currentPath}?${_qs}`;
-  //     }
-  //   } else {
-  //     this.ajax.configs.body = JSON.stringify(params);
-  //   }
-
-  //   this.params = params;
-  //   return this.actionRequest.bind(this, promiseExecutor);
-  // },
-  // actionRequest(promiseExecutor, dispatch, getState) {
-  //   console.log('fetching...');
-  //   // notify loading;
-  //   dispatch(this.actions.loading);
-
-  //   console.log('fetching...', this.currentPath);
-
-  //   let response;
-  //   return fetch(this.currentPath, this.ajax.configs)
-  //     .then((rsp) => {
-  //       response = rsp;
-  //       if (rsp.ok) {
-  //         return this.ajax.bodyRetriever(rsp);
-  //       }
-
-  //       const err = new Error(`${rsp.status}:${rsp.statusText}`);
-  //       console.error(err);
-  //       throw err;
-  //     })
-  //     .then(
-  //       (data) => {
-  //         console.log('ajax fetch succeed', data);
-  //         // if (this.responseHandler) {
-  //         //   this.responseHandler(data, this.createReceivedDispatcher(dispatch), getState);
-  //         // } else {
-  //         // }
-  //         const sendingData = this.dataFilter ? this.dataFilter(data, getState) : data;
-  //         this.ajax.receivedActionDispatcher(dispatch, sendingData, response);
-  //         if (promiseExecutor) promiseExecutor.resolve(sendingData);
-  //         return sendingData;
-  //       },
-  //       (err) => {
-  //         console.log('ajax failed', err);
-  //         this.ajax.failedActionDispatcher(dispatch, err, response);
-  //         // **We don't throw this error, in case no later promise.**
-  //         if (promiseExecutor) promiseExecutor.reject(err);
-  //         return err;
-  //       },
-  //     );
-  // },
-  // createReceivedDispatcher(dispatch) {
-  //   return (data) => {
-  //     this.ajax.receivedActionDispatcher(dispatch, data, this.response);
-  //   };
-  // },
+  bodyRetriever: bodyRetriever(rsp) {
+    return this.ajax.bodyRetriever(rsp);
+  },
 };
 
 /**

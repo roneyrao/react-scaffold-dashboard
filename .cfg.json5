@@ -52,6 +52,7 @@
 			publicPath:'/root/',
 			apiPath:'mock/', 
       entry:'index.js',
+      entry:'test.js',
       outDir:'dev',
       mock:[
         ['article/list', 'article/list_article_1.json'],

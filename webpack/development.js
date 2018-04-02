@@ -40,6 +40,7 @@ if (IsDevServer) {
         });
       },
       new webpack.HotModuleReplacementPlugin(),
+      new webpack.NamedModulesPlugin(),
     ],
     devServer: {
       hot: true,

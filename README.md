@@ -1,6 +1,6 @@
 # react-scaffold-dashboard
 
-POC for a react scaffold of dashboard-style projects, with plug-and-play modules.
+POC for a react scaffold of dashboard-esque projects, with modules organized in a plug-and-play manner.
 
 [Online Demo](https://roneyrao.github.io/react-scaffold-dashboard)
 

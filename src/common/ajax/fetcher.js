@@ -56,7 +56,7 @@ Fetcher.prototype = {
       .then((rsp) => {
         this.response = rsp;
         if (rsp.ok) {
-          return this.requester.ajax.bodyRetriever(rsp);
+          return this.requester.bodyRetriever(rsp);
         }
 
         const err = new Error(`${rsp.status}:${rsp.statusText}`);
